@@ -31,4 +31,4 @@ jobs:
 
       - run:
           name: Deploy application
-          command: aws s3 cp index.html s3://iwc-ci-demo
+          command: aws s3 cp matt.html s3://iwc-ci-demo
